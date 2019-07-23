@@ -10,9 +10,9 @@ import os
 import shutil
 import random
 
-IN_DIR = 'dataset/jpg'
-TRAIN_DIR = 'dataset/train_images'
-TEST_DIR = 'dataset/test_images'
+IN_DIR = '/kw_resources/dataset/jpg'
+TRAIN_DIR = '/kw_resources/dataset/train_images'
+TEST_DIR = '/kw_resources/dataset/test_images'
 
 if not os.path.exists(TRAIN_DIR):
     os.mkdir(TRAIN_DIR)
