@@ -39,14 +39,14 @@ nb_classes = len(classes)
 img_rows, img_cols = 150, 150
 channels = 3
 
-train_data_dir = 'dataset/train_images'
-validation_data_dir = 'dataset/test_images'
+train_data_dir = '/kw_resources/dataset/train_images'
+validation_data_dir = '/kw_resources/dataset/test_images'
 
 nb_train_samples = 1190
 nb_val_samples = 170
 nb_epoch = 50
 
-result_dir = 'dataset/results'
+result_dir = '/kw_resources/dataset/results'
 if not os.path.exists(result_dir):
     os.mkdir(result_dir)
 
