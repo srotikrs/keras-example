@@ -56,7 +56,7 @@ def plot_history(history):
 if __name__ == "__main__":
     batch_size = 128
     nb_classes = 10
-    nb_epoch = 3
+    nb_epoch = 100
 
     # MNISTデータのロード
     (X_train, y_train), (X_test, y_test) = mnist.load_data()
